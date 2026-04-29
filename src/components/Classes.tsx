@@ -1,70 +1,92 @@
-import { Flame, Wind, Moon } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+import vinyasaImg from "@/assets/class-vinyasa.jpg";
+import restorativeImg from "@/assets/class-restorative.jpg";
+import meditationImg from "@/assets/class-meditation.jpg";
 
 const classes = [
   {
-    icon: Wind,
+    image: vinyasaImg,
     name: "Vinyasa Flow",
-    description: "A dynamic, breath-synchronized practice that builds strength, flexibility, and mindfulness through fluid movement.",
+    description:
+      "A breath-led, fluid practice that builds heat, strength and a quiet mind.",
     duration: "60 min",
     level: "All Levels",
   },
   {
-    icon: Flame,
-    name: "Power Yoga",
-    description: "An energizing practice that challenges your body and mind with strength-building poses and active sequences.",
+    image: restorativeImg,
+    name: "Restorative",
+    description:
+      "Soft, supported shapes held with bolsters and blankets to deeply soothe the nervous system.",
     duration: "75 min",
-    level: "Intermediate",
+    level: "Beginner Friendly",
   },
   {
-    icon: Moon,
-    name: "Restorative Yoga",
-    description: "A gentle, soothing practice using props and long holds to release tension and promote deep relaxation.",
-    duration: "60 min",
-    level: "Beginner",
+    image: meditationImg,
+    name: "Stillness & Breath",
+    description:
+      "A guided meditation and pranayama session to cultivate presence, calm and clarity.",
+    duration: "45 min",
+    level: "All Levels",
   },
 ];
 
 const Classes = () => {
   return (
-    <section id="classes" className="py-24 bg-secondary/50">
-      <div className="container mx-auto px-6">
-        <div className="text-center space-y-4 mb-16">
-          <p className="text-sm font-medium tracking-widest uppercase text-primary">
-            What I Offer
+    <section id="classes" className="py-24 md:py-32 bg-secondary/40 relative overflow-hidden">
+      <div className="absolute -bottom-32 -left-32 w-[30rem] h-[30rem] rounded-full bg-primary/5 blur-3xl" />
+
+      <div className="container mx-auto px-6 relative">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+          <div className="space-y-4 max-w-xl">
+            <p className="text-xs font-medium tracking-[0.3em] uppercase text-primary">
+              What I Offer
+            </p>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight text-foreground">
+              Practices to <span className="italic text-accent">come home</span> to.
+            </h2>
+          </div>
+          <p className="text-muted-foreground max-w-sm leading-relaxed md:text-right">
+            Choose the offering that meets your body and spirit today — every
+            practice is gentle, intentional, and made for you.
           </p>
-          <h2 className="text-4xl md:text-5xl font-serif font-semibold text-foreground">
-            Classes & Services
-          </h2>
-          <div className="w-16 h-1 rounded-full bg-accent/60 mx-auto" />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {classes.map((cls) => (
-            <Card
+        <div className="grid md:grid-cols-3 gap-8">
+          {classes.map((cls, i) => (
+            <article
               key={cls.name}
-              className="group border-0 shadow-sm hover:shadow-lg transition-all duration-300 rounded-2xl overflow-hidden bg-card hover:-translate-y-1"
+              className="group relative"
             >
-              <CardContent className="p-8 text-center space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto group-hover:bg-accent/10 transition-colors">
-                  <cls.icon className="w-7 h-7 text-primary group-hover:text-accent transition-colors" />
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-foreground">
+              {/* Image */}
+              <div className="relative overflow-hidden rounded-[2rem] aspect-[3/4] mb-6 shadow-md">
+                <img
+                  src={cls.image}
+                  alt={cls.name}
+                  width={1024}
+                  height={1024}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 via-transparent to-transparent" />
+                <span className="absolute top-4 left-4 text-xs font-medium tracking-widest uppercase bg-background/90 backdrop-blur-sm text-primary px-3 py-1.5 rounded-full">
+                  0{i + 1}
+                </span>
+              </div>
+
+              {/* Text */}
+              <div className="space-y-3 px-1">
+                <h3 className="text-2xl font-serif text-foreground">
                   {cls.name}
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {cls.description}
                 </p>
-                <div className="flex justify-center gap-4 pt-2">
-                  <span className="text-xs font-medium bg-secondary px-3 py-1 rounded-full text-muted-foreground">
-                    {cls.duration}
-                  </span>
-                  <span className="text-xs font-medium bg-secondary px-3 py-1 rounded-full text-muted-foreground">
-                    {cls.level}
-                  </span>
+                <div className="flex items-center gap-3 pt-2 text-xs tracking-widest uppercase text-primary">
+                  <span>{cls.duration}</span>
+                  <span className="w-1 h-1 rounded-full bg-primary/40" />
+                  <span>{cls.level}</span>
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </article>
           ))}
         </div>
       </div>

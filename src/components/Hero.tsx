@@ -1,59 +1,81 @@
-import { Button } from "@/components/ui/button";
+import heroImg from "@/assets/hero-yoga.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Soft gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-secondary via-background to-secondary/50" />
-      
-      {/* Decorative circles */}
-      <div className="absolute top-20 right-10 w-72 h-72 rounded-full bg-primary/5 blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 rounded-full bg-accent/5 blur-3xl" />
+    <section className="relative min-h-screen flex items-center overflow-hidden pt-24 pb-12">
+      {/* Organic blob shapes */}
+      <div className="absolute -top-32 -right-32 w-[40rem] h-[40rem] rounded-full bg-primary/10 blur-2xl" />
+      <div className="absolute top-1/2 -left-40 w-[32rem] h-[32rem] rounded-full bg-accent/10 blur-2xl" />
+      <div className="absolute bottom-10 right-1/4 w-64 h-64 rounded-full bg-primary/5 blur-3xl" />
 
-      <div className="container relative mx-auto px-6 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container relative mx-auto px-6">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Text */}
-          <div className="text-center lg:text-left space-y-6">
-            <p className="text-sm font-medium tracking-widest uppercase text-primary">
-              Yoga · Mindfulness · Balance
+          <div className="lg:col-span-6 space-y-7 order-2 lg:order-1">
+            <p className="text-xs md:text-sm font-medium tracking-[0.3em] uppercase text-primary">
+              Yoga · Mindfulness · Breath
             </p>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-semibold leading-tight text-foreground">
-              Find Your <br />
-              <span className="text-accent italic">Balance</span>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.05] text-foreground">
+              Breathe.<br />
+              <span className="italic font-normal text-primary">Soften.</span><br />
+              <span className="text-accent">Bloom.</span>
             </h1>
-            <p className="text-lg text-muted-foreground max-w-md mx-auto lg:mx-0 leading-relaxed">
-              Reconnect with your body and mind through thoughtful, 
-              personalized yoga sessions designed to nurture your well-being.
+            <p className="text-base md:text-lg text-muted-foreground max-w-md leading-relaxed">
+              A gentle space to come home to yourself. Thoughtful yoga sessions
+              rooted in breath, presence, and quiet strength.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-3 text-base font-medium text-accent-foreground hover:bg-accent/90 transition-colors"
+                className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-3.5 text-sm font-medium tracking-wide text-accent-foreground hover:bg-accent/90 transition-all hover:shadow-lg hover:shadow-accent/20"
               >
-                Book a Class
+                Book a session
               </a>
               <a
                 href="#about"
-                className="inline-flex items-center justify-center rounded-full border border-primary/30 px-8 py-3 text-base font-medium text-primary hover:bg-primary/5 transition-colors"
+                className="inline-flex items-center justify-center rounded-full border border-primary/40 px-8 py-3.5 text-sm font-medium tracking-wide text-primary hover:bg-primary/5 transition-colors"
               >
-                Learn More
+                My story
               </a>
+            </div>
+
+            {/* Small meta row */}
+            <div className="flex items-center gap-6 pt-6 text-xs text-muted-foreground">
+              <span>RYT 500 Certified</span>
+              <span className="w-1 h-1 rounded-full bg-primary/40" />
+              <span>10+ Years Teaching</span>
             </div>
           </div>
 
-          {/* Photo placeholder */}
-          <div className="flex justify-center lg:justify-end">
+          {/* Image with editorial framing */}
+          <div className="lg:col-span-6 order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <div className="w-72 h-96 md:w-80 md:h-[28rem] rounded-[2rem] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center overflow-hidden">
-                <div className="text-center text-primary/40 space-y-2">
-                  <div className="w-16 h-16 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-2xl">🧘</span>
-                  </div>
-                  <p className="text-sm font-medium">Your Photo Here</p>
-                </div>
+              {/* Decorative outline frame */}
+              <div className="absolute -top-6 -left-6 w-full h-full rounded-[3rem] border-2 border-primary/30" />
+              <div className="absolute -bottom-6 -right-6 w-full h-full rounded-[3rem] bg-accent/15" />
+
+              {/* Main image */}
+              <div className="relative w-[18rem] h-[24rem] md:w-[22rem] md:h-[30rem] rounded-[3rem] overflow-hidden shadow-xl">
+                <img
+                  src={heroImg}
+                  alt="Yoga teacher in lotus meditation pose"
+                  width={1024}
+                  height={1280}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              {/* Decorative border */}
-              <div className="absolute -bottom-4 -right-4 w-72 h-96 md:w-80 md:h-[28rem] rounded-[2rem] border-2 border-primary/20 -z-10" />
+
+              {/* Floating script accent */}
+              <div className="hidden md:flex absolute -right-12 top-8 items-center">
+                <span className="font-serif italic text-2xl text-primary/80 rotate-12">
+                  breathe in ·
+                </span>
+              </div>
+              <div className="hidden md:flex absolute -left-16 bottom-12 items-center">
+                <span className="font-serif italic text-2xl text-accent/80 -rotate-6">
+                  · breathe out
+                </span>
+              </div>
             </div>
           </div>
         </div>
