@@ -47,7 +47,7 @@ const About = () => {
               About Me
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight text-foreground">
-              Hi, I'm <span className="italic text-accent">Aria</span> —<br />
+              Hi, I'm <span className="italic text-accent">Marjut</span> —<br />
               your guide on the mat.
             </h2>
             <div className="w-20 h-px bg-primary/40" />
@@ -66,7 +66,7 @@ const About = () => {
               <div>
                 <p className="text-4xl font-serif text-accent">10+</p>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mt-1">
-                  Years
+                  Own Practice
                 </p>
               </div>
               <div className="w-px bg-border" />
@@ -80,7 +80,7 @@ const About = () => {
               <div>
                 <p className="text-4xl font-serif text-accent">RYT</p>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mt-1">
-                  500 Certified
+                  50 Certified
                 </p>
               </div>
             </div>

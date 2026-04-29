@@ -13,7 +13,7 @@ const Hero = () => {
           {/* Text */}
           <div className="lg:col-span-6 space-y-7 order-2 lg:order-1">
             <p className="text-xs md:text-sm font-medium tracking-[0.3em] uppercase text-primary">
-              Yoga · Mindfulness · Breath
+              WELLNESS · MINDSET · YOGA · LIFE
             </p>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.05] text-foreground">
               Breathe.<br />
@@ -21,7 +21,7 @@ const Hero = () => {
               <span className="text-accent">Bloom.</span>
             </h1>
             <p className="text-base md:text-lg text-muted-foreground max-w-md leading-relaxed">
-              A gentle space to come home to yourself. Thoughtful yoga sessions
+              A gentle space to come home to yourself. Thoughtful yin yoga sessions
               rooted in breath, presence, and quiet strength.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -41,9 +41,9 @@ const Hero = () => {
 
             {/* Small meta row */}
             <div className="flex items-center gap-6 pt-6 text-xs text-muted-foreground">
-              <span>RYT 500 Certified</span>
+              <span>RYT 50 Certified</span>
               <span className="w-1 h-1 rounded-full bg-primary/40" />
-              <span>10+ Years Teaching</span>
+              <span>10+ Years Own Practice</span>
             </div>
           </div>
 
