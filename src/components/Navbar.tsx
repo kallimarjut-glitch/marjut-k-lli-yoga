@@ -28,8 +28,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        <a href="#" className="font-serif text-2xl font-semibold text-foreground">
-          Marjut Källi
+        <a href="#" className="font-serif text-2xl md:text-[1.6rem] italic font-medium tracking-tight text-foreground leading-none">
+          Marjut <span className="text-accent">Källi</span>
         </a>
 
         {/* Desktop links */}
