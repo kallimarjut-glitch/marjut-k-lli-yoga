@@ -20,7 +20,7 @@ const Contact = () => {
             </div>
             <div className="absolute -bottom-6 -right-6 hidden md:block">
               <p className="font-serif italic text-3xl text-primary -rotate-6">
-                let's flow ·
+                Grateful to practise with you.
               </p>
             </div>
           </div>
@@ -35,13 +35,13 @@ const Contact = () => {
               you <span className="italic text-accent">are</span>.
             </h2>
             <p className="text-muted-foreground leading-relaxed text-lg max-w-md">
-              Whether you're brand new or returning to your mat, I'd love to hear
-              from you. Send a note — I reply to every message.
+              If something here resonates with you, I would love to connect. You
+              are always welcome to reach out.
             </p>
 
             <div className="space-y-4 pt-4">
               <a
-                href="mailto:hello@sereneflow.com"
+                href="mailto:kalli.marjut@gmail.com"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 rounded-full bg-primary/10 group-hover:bg-accent group-hover:text-accent-foreground flex items-center justify-center text-primary transition-colors shrink-0">
@@ -52,7 +52,7 @@ const Contact = () => {
                     Email
                   </p>
                   <p className="text-base font-medium text-foreground group-hover:text-accent transition-colors">
-                    hello@sereneflow.com
+                    kalli.marjut@gmail.com
                   </p>
                 </div>
               </a>
@@ -63,10 +63,10 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-widest text-muted-foreground">
-                    Studio
+                    LOCATION
                   </p>
                   <p className="text-base font-medium text-foreground">
-                    Downtown Studio · Your City
+                    Gothenburg, Sweden
                   </p>
                 </div>
               </div>
