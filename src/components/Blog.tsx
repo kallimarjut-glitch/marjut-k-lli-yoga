@@ -42,7 +42,7 @@ const Blog = () => {
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm md:text-right">
-            A quiet corner where I share what I'm learning about yoga, slow living and a softer way to feel good.
+            A place where softness, balance, and quiet strength come together through yoga and mindful living.
           </p>
         </div>
 
