@@ -5,10 +5,10 @@ import meditationImg from "@/assets/class-meditation.jpg";
 const classes = [
   {
     image: vinyasaImg,
-    name: "Vinyasa Flow",
+    name: "Meditation",
     description:
-      "A breath-led, fluid practice that builds heat, strength and a quiet mind.",
-    duration: "60 min",
+      "A grounding yin yoga practice focused on slowing down, reconnecting, and finding balance.",
+    duration: "60 - 90 MIN",
     level: "All Levels",
   },
   {
