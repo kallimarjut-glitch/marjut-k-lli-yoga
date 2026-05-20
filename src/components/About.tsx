@@ -68,13 +68,6 @@ const About = () => {
               </div>
               <div className="w-px bg-border" />
               <div>
-                <p className="text-4xl font-serif text-accent">500+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-1">
-                  Students
-                </p>
-              </div>
-              <div className="w-px bg-border" />
-              <div>
                 <p className="text-4xl font-serif text-accent">RYT</p>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mt-1">
                   50 Certified
