@@ -21,8 +21,7 @@ const Hero = () => {
               <span className="text-accent">Bloom.</span>
             </h1>
             <p className="text-base md:text-lg text-muted-foreground max-w-md leading-relaxed">
-              A gentle space to come home to yourself. Thoughtful yin yoga sessions
-              rooted in breath, presence, and quiet strength.
+              A gentle space to reconnect with yourself through yin yoga, breath, presence, and quiet strength.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
