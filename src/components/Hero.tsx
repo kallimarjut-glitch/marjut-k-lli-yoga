@@ -28,7 +28,7 @@ const Hero = () => {
                 href="#contact"
                 className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-3.5 text-sm font-medium tracking-wide text-accent-foreground hover:bg-accent/90 transition-all hover:shadow-lg hover:shadow-accent/20"
               >
-                Book a session
+                Contact me
               </a>
               <a
                 href="#about"
