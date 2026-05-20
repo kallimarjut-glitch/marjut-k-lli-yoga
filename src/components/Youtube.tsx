@@ -52,9 +52,9 @@ const Youtube = () => {
               A cozy place to <span className="italic text-accent">slow down</span> together.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Join me on YouTube for honest conversations and gentle practices —
-              everything about yoga, wellness, mindset and the little rituals
-              that make life feel softer.
+              On YouTube, I share yin yoga, nervous system wellness, mindset
+              shifts, and simple practices to help you feel more balanced and
+              present.
             </p>
 
             <div className="flex flex-wrap gap-2">
