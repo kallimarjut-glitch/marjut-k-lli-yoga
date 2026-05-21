@@ -6,7 +6,7 @@ const navLinks = [
   { label: "Classes", href: "#classes" },
   { label: "Gallery", href: "#gallery" },
   { label: "YouTube", href: "#youtube" },
-  { label: "Journal", href: "#blog" },
+  { label: "Journal", href: "/blog" },
   
   { label: "Contact", href: "#contact" },
 ];
