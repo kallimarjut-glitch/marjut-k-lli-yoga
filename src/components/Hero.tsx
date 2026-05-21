@@ -38,12 +38,6 @@ const Hero = () => {
               </a>
             </div>
 
-            {/* Small meta row */}
-            <div className="flex items-center gap-6 pt-6 text-xs text-muted-foreground">
-              <span>RYT 50 Certified</span>
-              <span className="w-1 h-1 rounded-full bg-primary/40" />
-              <span>10+ Years Own Practice</span>
-            </div>
           </div>
 
           {/* Image with editorial framing */}
