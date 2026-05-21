@@ -1,7 +1,7 @@
 import { Play, Youtube as YoutubeIcon } from "lucide-react";
 import cozy from "@/assets/youtube-cozy.jpg";
 
-const topics = ["Yoga", "Wellness", "Mindset", "Rituals", "Breathwork"];
+const topics = ["Yoga", "Wellness", "Mindset", "Healthy Habits", "Breathwork"];
 
 const Youtube = () => {
   return (
@@ -39,7 +39,7 @@ const Youtube = () => {
             {/* Floating tag */}
             <div className="absolute -bottom-6 -right-4 md:-right-8 bg-background rounded-full px-5 py-3 shadow-lg flex items-center gap-2 border border-border">
               <YoutubeIcon className="w-5 h-5 text-accent" />
-              <span className="text-sm font-medium text-foreground">New videos weekly</span>
+              <span className="text-sm font-medium text-foreground">Free Yin Yoga classes</span>
             </div>
           </div>
 

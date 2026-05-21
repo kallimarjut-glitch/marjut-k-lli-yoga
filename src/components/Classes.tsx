@@ -5,7 +5,7 @@ import meditationImg from "@/assets/class-meditation.jpg";
 const classes = [
   {
     image: vinyasaImg,
-    name: "Meditation",
+    name: "Yin Yoga",
     description:
       "A grounding yin yoga practice focused on slowing down, reconnecting, and finding balance.",
     duration: "60 - 90 MIN",
