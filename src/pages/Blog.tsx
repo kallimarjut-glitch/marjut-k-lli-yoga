@@ -21,11 +21,11 @@ const BlogPage = () => {
                 Journal
               </p>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.05] text-foreground">
-                Notes on <span className="italic text-accent">softer living</span>.
+                Notes on <span className="italic text-accent">living with intention</span>.
               </h1>
               <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-                Reflections on yoga, mindset and the gentle rituals that help us
-                feel a little more at home in ourselves.
+                My reflections on yoga, mindset, and the habits that help you feel 
+                more grounded and inspired to live a more fulfilling life.
               </p>
             </div>
           </div>
