@@ -8,8 +8,8 @@ const classes = [
     name: "Yin Yoga",
     description:
       "A grounding yin yoga practice focused on slowing down, reconnecting, and finding balance.",
-    duration: "60 - 90 MIN",
-    level: "All Levels",
+    duration: "\n\n",
+    level: "\n",
   },
   {
     image: restorativeImg,
@@ -25,7 +25,7 @@ const classes = [
     description:
       "A guided meditation and pranayama session to cultivate presence, calm and clarity.",
     duration: "45 min",
-    level: "All Levels",
+    level: "\n",
   },
 ];
 
