@@ -45,8 +45,8 @@ const Classes = () => {
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm leading-relaxed md:text-right">
-            Choose the offering that meets your body and spirit today — every
-            practice is gentle, intentional, and made for you.
+            Yoga is my way to connect with myself, and by guiding you through
+            these practices, I hope to help you do the same.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const Classes = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 via-transparent to-transparent" />
                 <span className="absolute top-4 left-4 text-xs font-medium tracking-widest uppercase bg-background/90 backdrop-blur-sm text-primary px-3 py-1.5 rounded-full">
-                  0{i + 1}
+                  {"\n"}
                 </span>
               </div>
 
