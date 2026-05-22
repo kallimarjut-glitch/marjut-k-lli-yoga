@@ -48,8 +48,8 @@ const Youtube = () => {
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-primary">
               YouTube Channel
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.05] text-foreground">
-              A cozy place to <span className="italic text-accent">slow down</span> together.
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.05] text-foreground whitespace-pre-line">
+              A cozy place to <span className="italic text-accent">{"\n"}get inspired</span> together.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
               On YouTube, I share yin yoga, nervous system wellness, mindset
