@@ -27,7 +27,7 @@ const Gallery = () => {
           <div className="relative rounded-[1.5rem] overflow-hidden aspect-square col-span-2 md:col-span-1">
             <img src={about} alt="Warrior pose" className="w-full h-full object-cover" loading="lazy" />
           </div>
-          <div className="relative rounded-[1.5rem] overflow-hidden aspect-square hidden md:block">
+          <div className="relative rounded-[1.5rem] overflow-hidden aspect-square col-span-2 md:col-span-1">
             <div className="w-full h-full bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center p-6">
               <p className="font-serif italic text-2xl text-background text-center leading-snug">
                 "flow over force"
