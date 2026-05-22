@@ -80,11 +80,6 @@ const Classes = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {cls.description}
                 </p>
-                <div className="flex items-center gap-3 pt-2 text-xs tracking-widest uppercase text-primary">
-                  <span>{cls.duration}</span>
-                  <span className="w-1 h-1 rounded-full bg-primary/40" />
-                  <span>{cls.level}</span>
-                </div>
               </div>
             </article>
           ))}
