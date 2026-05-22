@@ -11,7 +11,7 @@ const BlogPage = () => {
 
       <main>
         {/* Header */}
-        <section className="pt-32 md:pt-40 pb-16 md:pb-20 relative overflow-hidden">
+        <section className="pt-32 md:pt-40 pb-24 md:pb-32 relative overflow-hidden">
           <div className="absolute -top-32 -right-32 w-[36rem] h-[36rem] rounded-full bg-primary/10 blur-3xl" aria-hidden />
           <div className="absolute top-1/2 -left-40 w-[28rem] h-[28rem] rounded-full bg-accent/10 blur-3xl" aria-hidden />
 
