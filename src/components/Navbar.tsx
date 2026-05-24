@@ -4,13 +4,13 @@ import { Menu, X } from "lucide-react";
 
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Classes", href: "#classes" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "YouTube", href: "#youtube" },
+  { label: "About", href: "/#about" },
+  { label: "Classes", href: "/#classes" },
+  { label: "Gallery", href: "/#gallery" },
+  { label: "YouTube", href: "/#youtube" },
   { label: "Journal", href: "/blog" },
-  
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/#contact" },
+
 ];
 
 const Navbar = () => {
