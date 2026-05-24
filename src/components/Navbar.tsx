@@ -47,7 +47,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/#contact"
             className="rounded-full bg-accent px-5 py-2 text-sm font-medium text-accent-foreground hover:bg-accent/90 transition-colors"
           >
             Get in Touch
@@ -78,7 +78,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/#contact"
             onClick={() => setMobileOpen(false)}
             className="block rounded-full bg-accent px-5 py-2 text-sm font-medium text-accent-foreground text-center hover:bg-accent/90 transition-colors"
           >
