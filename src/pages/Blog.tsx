@@ -11,7 +11,7 @@ const BlogPage = () => {
 
       <main>
         {/* Header */}
-        <section className="pt-32 md:pt-40 pb-24 md:pb-32 relative overflow-hidden">
+        <section className="pt-32 md:pt-40 pb-12 md:pb-16 relative overflow-hidden bg-gradient-to-b from-primary/10 via-primary/5 to-background">
           <div className="absolute -top-32 -right-32 w-[36rem] h-[36rem] rounded-full bg-primary/10 blur-3xl" aria-hidden />
           <div className="absolute top-1/2 -left-40 w-[28rem] h-[28rem] rounded-full bg-accent/10 blur-3xl" aria-hidden />
 
@@ -32,7 +32,8 @@ const BlogPage = () => {
         </section>
 
         {/* Posts */}
-        <section className="pb-24 md:pb-32">
+        <section className="pt-20 md:pt-28 pb-24 md:pb-32">
+
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 max-w-6xl mx-auto">
               {posts.map((post) => (
