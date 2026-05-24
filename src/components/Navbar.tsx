@@ -9,8 +9,6 @@ const navLinks = [
   { label: "Gallery", href: "/#gallery" },
   { label: "YouTube", href: "/#youtube" },
   { label: "Journal", href: "/blog" },
-  { label: "Contact", href: "/#contact" },
-
 ];
 
 const Navbar = () => {
