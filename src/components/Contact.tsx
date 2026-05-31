@@ -1,5 +1,5 @@
 import { Mail, MapPin, Instagram, Facebook } from "lucide-react";
-import contactImg from "@/assets/gallery-3.jpg";
+import contactImg from "@/assets/gallery-4.jpg";
 
 const Contact = () => {
   return (
