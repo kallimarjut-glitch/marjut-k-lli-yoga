@@ -31,8 +31,8 @@ const Contact = () => {
               Let's Connect
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight text-foreground">
-              Begin where <br />
-              you <span className="italic text-accent">are</span>.
+              I'd love to hear <br />
+              from <span className="italic text-accent">you</span>.
             </h2>
             <p className="text-muted-foreground leading-relaxed text-lg max-w-md">
               If something here resonates with you, I would love to connect. You
