@@ -1,5 +1,4 @@
 import aboutImg from "@/assets/about-yoga.jpg";
-import galleryImg from "@/assets/gallery-2.jpg";
 
 const About = () => {
   return (
@@ -21,25 +20,9 @@ const About = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              {/* Small overlapping image */}
-              <div className="absolute -bottom-10 -left-6 md:-left-12 w-36 h-44 md:w-44 md:h-52 rounded-[1.5rem] overflow-hidden shadow-2xl border-4 border-background">
-                <img
-                  src={galleryImg}
-                  alt="Hands in prayer mudra"
-                  width={800}
-                  height={1024}
-                  loading="lazy"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              {/* Decorative dot pattern */}
-              <div className="absolute -top-6 -right-6 grid grid-cols-4 gap-2">
-                {Array.from({ length: 16 }).map((_, i) => (
-                  <span key={i} className="w-1.5 h-1.5 rounded-full bg-accent/40" />
-                ))}
-              </div>
             </div>
           </div>
+
 
           {/* Text */}
           <div className="lg:col-span-6 space-y-6 lg:pl-8">
