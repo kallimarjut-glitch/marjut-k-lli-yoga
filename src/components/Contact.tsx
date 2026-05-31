@@ -20,7 +20,7 @@ const Contact = () => {
             </div>
             <div className="mt-6 md:mt-0 md:absolute md:-bottom-6 md:-right-6 text-center md:text-left">
               <p className="font-serif italic text-2xl md:text-3xl text-primary md:-rotate-6">
-                Grateful to practise with you.
+                With love, M
               </p>
             </div>
           </div>
