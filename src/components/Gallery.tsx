@@ -1,6 +1,7 @@
 import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
+import g4 from "@/assets/gallery-4.jpg";
 import about from "@/assets/about-yoga.jpg";
 
 const Gallery = () => {
@@ -34,8 +35,11 @@ const Gallery = () => {
               </p>
             </div>
           </div>
-          <div className="relative rounded-[1.5rem] overflow-hidden aspect-square col-span-2 md:col-span-2">
+          <div className="relative rounded-[1.5rem] overflow-hidden aspect-square col-span-2 md:col-span-1">
             <img src={g2} alt="Hands in prayer" className="w-full h-full object-cover" loading="lazy" />
+          </div>
+          <div className="relative rounded-[1.5rem] overflow-hidden aspect-square col-span-2 md:col-span-1">
+            <img src={g4} alt="Marjut under cherry blossoms" className="w-full h-full object-cover" loading="lazy" />
           </div>
         </div>
       </div>
