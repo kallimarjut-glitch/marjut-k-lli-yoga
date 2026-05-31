@@ -20,8 +20,9 @@ const About = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-
+            </div>
           </div>
+
 
           {/* Text */}
           <div className="lg:col-span-6 space-y-6 lg:pl-8">
