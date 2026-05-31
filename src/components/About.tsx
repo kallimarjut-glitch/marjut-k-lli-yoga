@@ -1,5 +1,4 @@
 import aboutImg from "@/assets/about-yoga.jpg";
-import galleryImg from "@/assets/gallery-2.jpg";
 
 const About = () => {
   return (
