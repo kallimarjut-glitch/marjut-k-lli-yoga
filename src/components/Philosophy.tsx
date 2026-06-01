@@ -1,3 +1,5 @@
+import philosophyImg from "@/assets/philosophy-walk.jpg";
+
 const pillars = [
   {
     number: "01",
@@ -39,6 +41,37 @@ const Philosophy = () => {
             with your values and moving through the world a little more
             intentionally.
           </p>
+        </div>
+
+        {/* Image + quote */}
+        <div className="grid md:grid-cols-12 gap-10 md:gap-16 items-center max-w-6xl mx-auto mb-20">
+          <div className="md:col-span-6">
+            <div className="relative w-full max-w-md mx-auto">
+              <div className="rounded-[2.5rem] overflow-hidden shadow-xl aspect-[4/5]">
+                <img
+                  src={philosophyImg}
+                  alt="Walking barefoot through tall grass at golden hour"
+                  width={1024}
+                  height={1280}
+                  loading="lazy"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-6 -right-4 md:-right-8 w-24 h-24 rounded-full bg-accent/10 blur-2xl" />
+            </div>
+          </div>
+
+          <div className="md:col-span-6 space-y-6 md:pl-4">
+            <p className="font-serif text-6xl text-accent leading-none">"</p>
+            <blockquote className="text-2xl md:text-3xl font-serif italic leading-snug text-foreground">
+              The way you do anything is the way you do everything. I want to
+              move through life the same way I move through a practice —
+              slowly, honestly, and with care.
+            </blockquote>
+            <p className="text-sm tracking-[0.25em] uppercase text-muted-foreground">
+              — Marjut
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-10 md:gap-8 max-w-5xl mx-auto">
