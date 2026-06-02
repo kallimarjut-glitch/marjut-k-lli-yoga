@@ -52,7 +52,7 @@ const Youtube = () => {
               A cozy place to <span className="italic text-accent"><br />get inspired</span> together.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Free Yin yoga classes, mindset talks, and simple wellness
+              Yin yoga classes, mindset talks, and simple wellness
               practices for creating a more intentional life.
             </p>
 
