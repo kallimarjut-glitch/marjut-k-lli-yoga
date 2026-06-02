@@ -44,7 +44,7 @@ const About = () => {
 
             <div className="flex gap-10 pt-6">
               <div>
-                <p className="text-4xl font-serif text-accent">10+</p>
+                <p className="text-4xl font-serif text-accent">10+ years</p>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mt-1">
                   Own Practice
                 </p>
