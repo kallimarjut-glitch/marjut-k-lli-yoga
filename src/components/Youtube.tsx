@@ -25,7 +25,7 @@ const Youtube = () => {
               />
               {/* Play overlay */}
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@marjutkalli"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit YouTube channel"
@@ -69,7 +69,7 @@ const Youtube = () => {
 
             <div className="pt-2">
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@marjutkalli"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-accent px-7 py-3.5 text-sm font-medium text-accent-foreground hover:bg-accent/90 transition-colors shadow-md"
