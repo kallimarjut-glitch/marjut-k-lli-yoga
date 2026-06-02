@@ -1,4 +1,4 @@
-import { Mail, MapPin, Instagram, Facebook } from "lucide-react";
+import { Mail, MapPin, Instagram } from "lucide-react";
 import contactImg from "@/assets/gallery-4.jpg";
 
 const Contact = () => {
@@ -79,13 +79,6 @@ const Contact = () => {
                 className="w-11 h-11 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-accent hover:border-accent hover:text-accent-foreground transition-colors"
               >
                 <Instagram size={18} />
-              </a>
-              <a
-                href="#"
-                aria-label="Facebook"
-                className="w-11 h-11 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-accent hover:border-accent hover:text-accent-foreground transition-colors"
-              >
-                <Facebook size={18} />
               </a>
             </div>
           </div>
