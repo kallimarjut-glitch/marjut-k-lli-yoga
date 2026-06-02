@@ -16,8 +16,8 @@ const Youtube = () => {
           <div className="relative order-2 lg:order-1">
             <div className="relative rounded-[2rem] overflow-hidden aspect-[4/5] shadow-xl">
               <img
-                src={cozy}
-                alt="Cozy yoga studio with plants and candles"
+                src={cozy.url}
+                alt="Yoga bolster, cork block, and laptop on a cork mat"
                 width={1280}
                 height={1280}
                 loading="lazy"
