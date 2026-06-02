@@ -1,5 +1,5 @@
 import { Play, Youtube as YoutubeIcon } from "lucide-react";
-import cozy from "@/assets/youtube-cozy.jpg";
+import cozy from "@/assets/youtube-setup.jpg.asset.json";
 
 const topics = ["Yoga", "Wellness", "Mindset", "Healthy Habits", "Breathwork"];
 
