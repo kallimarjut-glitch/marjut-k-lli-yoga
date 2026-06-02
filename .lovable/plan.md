@@ -1,10 +1,12 @@
-## Add YouTube channel link
+## Plan
 
-The "Visit the channel" button and the play overlay in the YouTube section currently point to a placeholder (`https://youtube.com`). I'll point them to your actual channel.
+Replace the current image in the YouTube channel section (`src/components/Youtube.tsx`) with the uploaded photo of the yoga bolster, cork block, and MacBook on a mat.
 
-### Change
-In `src/components/Youtube.tsx`, replace both `href="https://youtube.com"` values with:
+### Steps
+1. Register the uploaded image as a Lovable Asset (`src/assets/youtube-setup.jpg.asset.json`) pointing to the uploaded file.
+2. Update `src/components/Youtube.tsx`:
+   - Replace the `aboutImg`-style import (`youtube-cozy.jpg`) with the new asset import.
+   - Update the `<img>` `src` and `alt` text to describe the new image (e.g. "Yoga bolster, cork block, and laptop on a mat").
+   - Keep layout, aspect ratio, play overlay, and floating tag unchanged.
 
-`https://www.youtube.com/@marjutkalli`
-
-That's it — two link updates, no new UI.
+No other sections or copy will change.
