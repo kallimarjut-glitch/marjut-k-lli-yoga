@@ -53,9 +53,8 @@ const Youtube = () => {
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg whitespace-pre-line">
               Yin yoga classes, mindset talks, and simple wellness
-              practices for creating a more intentional life.{" "}&nbsp;
-
-              Subscribe and be the first to know when new videos are released.
+              practices for creating a more intentional life. Subscribe{" "}
+              and be the first to know when new videos are released.
             </p>
 
             <div className="flex flex-wrap gap-2">
