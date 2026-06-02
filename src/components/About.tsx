@@ -39,7 +39,7 @@ const About = () => {
               I believe that when the nervous system feels safe and balanced, we can experience more energy, clarity, presence, and strength in our lives.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I was 19, I moved abroad and spent years searching for balance in my body, mind, and soul. Over time, I realised that slowing down wasn't about doing less; it was about living more intentionally. And most importantly, it didn't mean I needed to lose my spark.
+              When I was 19, I moved abroad and spent years searching for a deeper sense of fulfilment in life. Along the way, I learned that true wellbeing isn't about becoming someone else, it's about reconnecting with who you already are. Most importantly, I realised that I didn't need to lose my spark to find more peace, presence, and meaning.
             </p>
 
             <div className="flex gap-10 pt-6">
