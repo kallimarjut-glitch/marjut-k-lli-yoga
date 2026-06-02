@@ -39,7 +39,7 @@ const About = () => {
               I believe that when the nervous system feels safe and balanced, we can experience more energy, clarity, presence, and strength in our lives.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              This is a space where you can come exactly as you are. Let's inspire each other.
+              When I was 19, I moved abroad and spent years searching for balance in my body, mind, and soul. Over time, I realised that slowing down wasn't about doing less; it was about living more intentionally. And most importantly, it didn't mean I needed to lose my spark.
             </p>
 
             <div className="flex gap-10 pt-6">
