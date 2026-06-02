@@ -19,7 +19,7 @@ const Blog = () => {
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm md:text-right">
-            A place where softness, balance, and quiet strength come together through yoga and mindful living.
+            My reflections for a more aligned life.
           </p>
         </div>
 
