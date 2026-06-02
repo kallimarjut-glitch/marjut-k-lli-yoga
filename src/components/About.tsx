@@ -30,12 +30,12 @@ const About = () => {
               About Me
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight text-foreground">
-              Hi, I'm <span className="italic text-accent">Marjut</span> —<br />
-              so glad you're here.
+              Hi, I'm <span className="italic text-accent">Marjut</span>!<br />
+              So glad you're here.
             </h2>
             <div className="w-20 h-px bg-primary/40" />
             <p className="text-muted-foreground leading-relaxed text-lg whitespace-pre-line">
-              My mission is to help people slow down without losing their ambitions and dreams.{"\n"}
+              My mission is to help people slow down without losing their ambitions and dreams.{"\n\n"}
               I believe that when the nervous system feels safe and balanced, we can experience more energy, clarity, presence, and strength in our lives.
             </p>
             <p className="text-muted-foreground leading-relaxed">
