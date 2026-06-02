@@ -34,10 +34,10 @@ const Contact = () => {
               I'd love to hear <br />
               from <span className="italic text-accent">you</span>.
             </h2>
-            <p className="text-muted-foreground leading-relaxed text-lg max-w-md">
-              If something here resonates with you, I would love to connect. You
-              are always welcome to reach out.
-            </p>
+            <div className="text-muted-foreground leading-relaxed text-lg max-w-md space-y-4">
+              <p>If something here resonates with you, I would love to connect.</p>
+              <p>Whether you're interested in working together or just want to say hi, you're always welcome to reach out.</p>
+            </div>
 
             <div className="space-y-4 pt-4">
               <a
