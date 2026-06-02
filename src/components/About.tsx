@@ -38,7 +38,7 @@ const About = () => {
               My mission is to help people slow down without losing their ambitions and dreams. I believe that when the nervous system feels safe and balanced, we can experience more energy, clarity and strength in our lives.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I was 19, I moved abroad and spent years searching for a deeper sense of fulfilment in life. Along the way, I learned that true wellbeing isn't about becoming someone else, it's about reconnecting with who you already are. Most importantly, I realised that I didn't need to lose my spark to feel grounded.
+              When I was 19, I moved abroad and spent years searching for a deeper sense of fulfilment in life. Along the way, I learned that true wellbeing isn't about becoming someone else, it's about reconnecting with who you already are. Most importantly, I realised that I could feel grounded without losing my spark.
             </p>
 
             <div className="flex gap-10 pt-6">
