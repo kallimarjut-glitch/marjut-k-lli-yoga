@@ -46,7 +46,7 @@ const Youtube = () => {
           {/* Content side */}
           <div className="order-1 lg:order-2 space-y-7">
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-primary">
-              YouTube Channel
+              YouTube Channel · <span className="text-accent">Coming Soon</span>
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.05] text-foreground">
               A cozy place to <span className="italic text-accent"><br />get inspired</span> together.
