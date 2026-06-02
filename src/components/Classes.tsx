@@ -67,7 +67,7 @@ const Classes = () => {
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 via-transparent to-transparent" />
-                <span className="absolute top-4 left-4 text-xs font-medium tracking-widest uppercase bg-background/90 backdrop-blur-sm text-primary px-3 py-1.5 rounded-full">
+                <span className="absolute top-4 left-4 text-xs font-medium tracking-widest uppercase bg-background/90 backdrop-blur-sm text-primary rounded-full px-0 py-0">
                   {"\n\n"}
                 </span>
               </div>
