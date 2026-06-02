@@ -52,9 +52,8 @@ const Youtube = () => {
               A cozy place to <span className="italic text-accent"><br />get inspired</span> together.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              On YouTube, I share yin yoga, nervous system wellness, mindset
-              shifts, and simple practices to help you feel more balanced and
-              present.
+              Free Yin yoga classes, mindset talks, and simple wellness
+              practices for creating a more intentional life.
             </p>
 
             <div className="flex flex-wrap gap-2">
