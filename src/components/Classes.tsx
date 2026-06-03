@@ -31,7 +31,7 @@ const classes = [
 
 const Classes = () => {
   return (
-    <section id="classes" className="py-24 md:py-32 bg-secondary/40 relative overflow-hidden">
+    <section id="yoga" className="py-24 md:py-32 bg-secondary/40 relative overflow-hidden">
       <div className="absolute -bottom-32 -left-32 w-[30rem] h-[30rem] rounded-full bg-primary/5 blur-3xl" />
 
       <div className="container mx-auto px-6 relative">
