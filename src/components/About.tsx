@@ -1,4 +1,4 @@
-import aboutImg from "@/assets/about-yoga.jpg";
+import aboutImg from "@/assets/about-portrait.png";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
               <div className="rounded-[2.5rem] overflow-hidden shadow-xl aspect-[4/5]">
                 <img
                   src={aboutImg}
-                  alt="Yoga teacher in warrior pose at golden hour"
+                  alt="Marjut - Yin yoga teacher portrait"
                   width={1024}
                   height={1280}
                   loading="lazy"
