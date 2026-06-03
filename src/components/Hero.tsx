@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-yoga-portrait.jpg";
+import heroImg from "@/assets/hero-meditation.png";
 
 const Hero = () => {
   return (
@@ -51,7 +51,7 @@ const Hero = () => {
               <div className="relative w-[18rem] h-[24rem] md:w-[22rem] md:h-[30rem] rounded-[3rem] overflow-hidden shadow-xl">
                 <img
                   src={heroImg}
-                  alt="Yoga teacher in lotus meditation pose"
+                  alt="Woman in a meditation prayer pose"
                   width={1024}
                   height={1280}
                   className="w-full h-full object-cover"
