@@ -49,8 +49,7 @@ const Gallery = () => {
           </span>
           <blockquote className="font-serif italic text-2xl md:text-3xl text-foreground leading-relaxed pt-6 whitespace-pre-line">
             Alignment isn't about a perfection.{"\n"}
-            It's about reconnecting with yourself, again and again.{"\n\n"}
-            So you can move through life with more clarity.
+            It's about reconnecting with yourself, again and again.
           </blockquote>
         </figure>
       </div>
