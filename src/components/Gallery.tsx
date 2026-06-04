@@ -1,15 +1,15 @@
 const values = [
   {
     title: "Presence",
-    text: "Meeting each moment, and each student, exactly where they are.",
+    text: "Right now, right here. That's definitely my safe place.",
   },
   {
     title: "Softness",
-    text: "Choosing kindness over force — on the mat and in everyday life.",
+    text: "I choose kindness and compassion over resistance and control.",
   },
   {
     title: "Authenticity",
-    text: "Teaching from lived experience, not performance.",
+    text: "My teaching is rooted in lived experience rather than performance.",
   },
 ];
 
@@ -27,9 +27,7 @@ const Gallery = () => {
             Living in <span className="italic text-accent">alignment</span>.
           </h2>
           <p className="text-foreground/70 leading-relaxed pt-2">
-            For me, yoga isn't something I practice for an hour a day — it's a way of moving
-            through the world. I try to live what I teach by leaning into a few simple values
-            that keep me grounded, honest, and open.
+            The main lesson for me has been that I need to live by my own values, follow my own path, and listen to my intuition to feel grounded and fulfilled.
           </p>
         </div>
 
