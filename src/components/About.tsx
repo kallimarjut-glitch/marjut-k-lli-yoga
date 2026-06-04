@@ -29,8 +29,8 @@ const About = () => {
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-primary">
               About Me
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight text-foreground">
-              Hi, I'm <span className="italic text-accent">Marjut</span>!<br />
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight text-foreground whitespace-pre-line">
+              Hi, I'm <span className="italic text-accent">Marjut</span>!{"\n"}
               So glad you're here.
             </h2>
             <div className="w-20 h-px bg-primary/40" />
