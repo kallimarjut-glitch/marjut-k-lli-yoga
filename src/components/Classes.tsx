@@ -7,7 +7,7 @@ const classes = [
     image: vinyasaImg,
     name: "Yin Yoga",
     description:
-      "A grounding yin yoga practice focused on slowing down, reconnecting, and finding balance.",
+      "A grounding practice focused on body awareness, presence, and self-compassion.",
     duration: "\n\n",
     level: "\n",
   },
@@ -15,7 +15,7 @@ const classes = [
     image: restorativeImg,
     name: "Restorative",
     description:
-      "Soft, supported shapes held with bolsters and blankets to deeply soothe the nervous system.",
+      "Soft, supported poses held with props to create space for deep rest and recovery.",
     duration: "75 min",
     level: "Beginner Friendly",
   },
@@ -23,7 +23,7 @@ const classes = [
     image: meditationImg,
     name: "Stillness & Breath",
     description:
-      "A guided meditation and pranayama session to cultivate presence, calm and clarity.",
+      "A guided practice of breathwork and stillness to support inner calm and resilience.",
     duration: "45 min",
     level: "\n",
   },
@@ -41,7 +41,7 @@ const Classes = () => {
               What I Offer
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight text-foreground">
-              Practices to <span className="italic text-accent">come home</span> to.
+              Support for <span className="italic text-accent">your wellbeing</span>.
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm leading-relaxed md:text-right">
