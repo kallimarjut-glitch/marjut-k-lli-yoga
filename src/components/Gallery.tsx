@@ -5,7 +5,7 @@ const values = [
   },
   {
     title: "Softness",
-    text: "I choose kindness and compassion over resistance and control.",
+    text: "I choose compassion, while staying true to what matters most.",
   },
   {
     title: "Authenticity",
@@ -27,7 +27,7 @@ const Gallery = () => {
             Living in <span className="italic text-accent">alignment</span>.
           </h2>
           <p className="text-foreground/70 leading-relaxed pt-2">
-            The main lesson for me has been that I need to live by my own values, follow my own path, and listen to my intuition to feel grounded and fulfilled.
+            The main lesson for me has been learning to trust myself. To live by my own values, follow my own path, and listen to my intuition. 
           </p>
         </div>
 
