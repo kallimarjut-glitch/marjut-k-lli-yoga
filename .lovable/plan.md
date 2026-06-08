@@ -1,12 +1,13 @@
-## Plan
+## Remove the blog section
 
-Replace the current image in the YouTube channel section (`src/components/Youtube.tsx`) with the uploaded photo of the yoga bolster, cork block, and MacBook on a mat.
+Take the Journal/blog out of the site entirely.
 
-### Steps
-1. Register the uploaded image as a Lovable Asset (`src/assets/youtube-setup.jpg.asset.json`) pointing to the uploaded file.
-2. Update `src/components/Youtube.tsx`:
-   - Replace the `aboutImg`-style import (`youtube-cozy.jpg`) with the new asset import.
-   - Update the `<img>` `src` and `alt` text to describe the new image (e.g. "Yoga bolster, cork block, and laptop on a mat").
-   - Keep layout, aspect ratio, play overlay, and floating tag unchanged.
+**Changes**
+- `src/pages/Index.tsx` — remove `Blog` import and `<Blog />` from the home page.
+- `src/components/Navbar.tsx` — remove the "Journal" nav link (desktop + mobile).
+- `src/App.tsx` — remove `/blog` and `/blog/:slug` routes plus their imports.
+- Delete: `src/components/Blog.tsx`, `src/pages/Blog.tsx`, `src/pages/BlogPost.tsx`, `src/data/posts.ts`, and the blog images (`src/assets/blog-journal.jpg`, `blog-morning.jpg`, `blog-flowers.jpg`).
 
-No other sections or copy will change.
+No backend or styling changes. The rest of the page (Hero, About, Classes, Gallery, YouTube, Contact) stays as-is.
+
+Want me to keep the blog files around (just hidden) in case you want to bring it back later, or fully delete them?

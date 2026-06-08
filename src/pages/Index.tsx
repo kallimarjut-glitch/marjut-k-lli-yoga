@@ -4,8 +4,6 @@ import About from "@/components/About";
 import Classes from "@/components/Classes";
 import Gallery from "@/components/Gallery";
 import Youtube from "@/components/Youtube";
-import Blog from "@/components/Blog";
-
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -18,8 +16,6 @@ const Index = () => {
       <Classes />
       <Gallery />
       <Youtube />
-      <Blog />
-      
       <Contact />
       <Footer />
     </div>
