@@ -8,7 +8,7 @@ const navLinks = [
   { label: "Yoga", href: "/#yoga" },
   { label: "Gallery", href: "/#gallery" },
   { label: "YouTube", href: "/#youtube" },
-  { label: "Journal", href: "/blog" },
+  
 ];
 
 const Navbar = () => {
