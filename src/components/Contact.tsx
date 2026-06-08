@@ -74,7 +74,9 @@ const Contact = () => {
 
             <div className="flex items-center gap-3 pt-4">
               <a
-                href="#"
+                href="https://www.instagram.com/marjutkalli/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="w-11 h-11 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-accent hover:border-accent hover:text-accent-foreground transition-colors"
               >
