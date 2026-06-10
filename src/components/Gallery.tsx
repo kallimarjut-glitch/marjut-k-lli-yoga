@@ -1,7 +1,7 @@
 const values = [
   {
     title: "Presence",
-    text: "Right now, right here. That's definitely my safe place.",
+    text: "Not in the past. Not in the future. Just here, with what is.",
   },
   {
     title: "Softness",
