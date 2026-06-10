@@ -58,17 +58,6 @@ const Hero = () => {
                 />
               </div>
 
-              {/* Floating script accent */}
-              <div className="hidden md:flex absolute -right-12 top-8 items-center">
-                <span className="font-serif italic text-2xl text-primary/80 rotate-12">
-                  breathe in ·
-                </span>
-              </div>
-              <div className="hidden md:flex absolute -left-16 bottom-12 items-center">
-                <span className="font-serif italic text-2xl text-accent/80 -rotate-6">
-                  · breathe out
-                </span>
-              </div>
             </div>
           </div>
         </div>
