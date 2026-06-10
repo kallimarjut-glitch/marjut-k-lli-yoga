@@ -4,8 +4,8 @@ const values = [
     text: "Not in the past. Not in the future. Just here, with what is.",
   },
   {
-    title: "Softness",
-    text: "I choose compassion, while staying true to what matters most.",
+    title: "Soft & Strong",
+    text: "A reminder that calm and ambition can coexist.",
   },
   {
     title: "Authenticity",
