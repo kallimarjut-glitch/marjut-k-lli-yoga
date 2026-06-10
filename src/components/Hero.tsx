@@ -21,7 +21,7 @@ const Hero = () => {
               <span className="text-accent">Bloom.</span>
             </h1>
             <p className="text-base md:text-lg text-muted-foreground max-w-md leading-relaxed">
-              A space to reconnect with yourself, live more intentionally, and move towards the person you want to become.
+              A space to reconnect with yourself and create a life that feels more aligned.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
