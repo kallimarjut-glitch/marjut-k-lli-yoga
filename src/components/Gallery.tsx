@@ -9,7 +9,7 @@ const values = [
   },
   {
     title: "Authenticity",
-    text: "My teaching is rooted in lived experience rather than performance.",
+    text: "I share from personal experience, not from a place of perfection.",
   },
 ];
 
