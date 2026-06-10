@@ -27,7 +27,7 @@ const Gallery = () => {
             Living in <span className="italic text-accent">alignment</span>.
           </h2>
           <p className="text-foreground/70 leading-relaxed pt-2">
-            The main lesson for me has been learning to trust myself. To live by my own values, follow my own path, and listen to my intuition. I aim to bring the same approach into my teaching, sharing what I have learned through my own experience.
+            The main lesson for me has been learning to trust myself. To live by my own values, follow my own path, and listen to my intuition. I aim to bring the same approach into my teaching and share what I have learned through my own experience.
           </p>
         </div>
 
