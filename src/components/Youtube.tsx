@@ -23,18 +23,6 @@ const Youtube = () => {
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
-              {/* Play overlay */}
-              <a
-                href="https://www.youtube.com/@marjutkalli"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit YouTube channel"
-                className="absolute inset-0 flex items-center justify-center bg-foreground/10 hover:bg-foreground/30 transition-colors group"
-              >
-                <span className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-background/95 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
-                  <Play className="w-8 h-8 md:w-10 md:h-10 text-accent fill-accent ml-1" />
-                </span>
-              </a>
             </div>
             {/* Floating tag */}
             <div className="absolute -bottom-6 -right-4 md:-right-8 bg-background rounded-full px-5 py-3 shadow-lg flex items-center gap-2 border border-border">
