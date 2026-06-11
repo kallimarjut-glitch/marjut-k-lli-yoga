@@ -25,7 +25,7 @@ const Youtube = () => {
               />
             </div>
             {/* Floating tag */}
-            <div className="absolute -bottom-6 -right-4 md:-right-8 bg-background rounded-full px-5 py-3 shadow-lg flex items-center gap-2 border border-border">
+            <div className="absolute -bottom-5 right-4 md:right-6 bg-background rounded-full px-5 py-3 shadow-lg flex items-center gap-2 border border-border">
               <YoutubeIcon className="w-5 h-5 text-accent" />
               <span className="text-sm font-medium text-foreground">Free Yin Yoga classes</span>
             </div>
