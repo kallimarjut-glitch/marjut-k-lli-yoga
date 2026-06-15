@@ -1,6 +1,5 @@
-import { Play, Youtube as YoutubeIcon } from "lucide-react";
-import cozy from "@/assets/youtube-setup.jpg.asset.json";
-
+import { Youtube as YoutubeIcon } from "lucide-react";
+const cozy = "/youtube-setup.jpg";
 const topics = ["Yoga", "Wellness", "Mindset", "Healthy Habits", "Breathwork"];
 
 const Youtube = () => {
@@ -16,7 +15,7 @@ const Youtube = () => {
           <div className="relative order-2 lg:order-1">
             <div className="relative rounded-[2rem] overflow-hidden aspect-[4/5] shadow-xl">
               <img
-                src={cozy.url}
+                src={cozy}
                 alt="Yoga bolster, cork block, and laptop on a cork mat"
                 width={1280}
                 height={1280}
