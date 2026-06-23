@@ -41,7 +41,7 @@ const Contact = () => {
 
             <div className="space-y-4 pt-4">
               <a
-                href="mailto:kalli.marjut@gmail.com"
+                href="mailto:contact@marjutkalli.com"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 rounded-full bg-primary/10 group-hover:bg-accent group-hover:text-accent-foreground flex items-center justify-center text-primary transition-colors shrink-0">
